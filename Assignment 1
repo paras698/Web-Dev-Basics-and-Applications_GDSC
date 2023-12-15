@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       h1{
+        /* color:green; */
+        font-family: Arial, Helvetica, sans-serif;
+       }
+       form{
+        color:blue;
+       }
+       h3{
+        color:blueviolet;
+        background-color: rgb(50, 200,100);
+        height: 20px;
+        width: 100px;
+        border-top-left-radius: 2px;
+        border-top-right-radius: 3px;
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 5px;
+       }
+       th{
+        border: 2px solid black;
+       }
+       td{
+        border: 2px solid black;
+        color:green;
+       }
+       span{
+        font-weight: bold;
+       }
+       p{
+        color: brown;
+        font-family:cursive;
+       }
+    </style>
+</head>
+<body>
+    <h1>1st Section </h1>
+    <h3>Introduction</h3>
+    <p>Hii I'm Paras. I'm a third year undergraduate at <span>IIT Kanpur</span>. This is my basic HTML website.</p>
+    <hr>
+    <h1>2nd Section </h1>
+    <h3>Form</h3>
+    <form action="">
+        <div>
+            Name: <input type="text">
+        </div>
+        <br>
+        Roll No.: <input type="text">
+        <br>
+        <br>
+        <div>
+            <label for="Degree">Degree</label>
+            <select name="mydegree" id="Degree">
+                <option value="BTech">BTech</option>
+                <option value="BS">BS</option>
+                <option value="MTech">MTech</option>
+                <option value="MS">MS</option>
+            </select>
+        </div> 
+        <br>
+        Department: <input type="text">
+        <br>
+        <br>
+        Year: <input type="number">
+        <br>
+        <br>
+        CPI above 6: <input type="checkbox">
+        <br>
+        <input type="submit" value="Submit now">
+    </form>
+    <br>
+    <hr>
+    <br>
+    <h1>3rd Section</h1>
+    <h3>Images</h3>
+    <img src="https://parade.com/.image/c_limit%2Ccs_srgb%2Cq_auto:good%2Cw_700/MTk3MzM3ODU4NTU2NTY4Nzc1/marveldisney.webp" alt="Error" width="200" height="200"/>
+    <img src="https://images.unsplash.com/photo-1635805737707-575885ab0820?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Error" width="200" height="200"/>
+    <img src="https://plus.unsplash.com/premium_photo-1675827055694-010aef2cf08f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmF0dXJlfGVufDB8fDB8fHww" alt="Error" width="200" height="200">
+    <br>
+    <img src="https://plus.unsplash.com/premium_photo-1673002094173-b16f2b946780?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8bmF0dXJlfGVufDB8fDB8fHww" alt="Error" width="200" height="200">
+    <img src="https://images.unsplash.com/photo-1505144808419-1957a94ca61e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fG5hdHVyZXxlbnwwfHwwfHx8MA%3D%3D" alt="Error" width="200" height="200">
+    <img src="https://images.unsplash.com/photo-1444464666168-49d633b86797?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Error" width="200" height="200" >
+    <br>
+    <img src="https://images.unsplash.com/photo-1524492412937-b28074a5d7da?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Error" width="200" height="200" >
+    <img src="https://images.unsplash.com/photo-1515091943-9d5c0ad475af?q=80&w=1535&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Error"width="200" height="200" >
+    <img src="https://images.unsplash.com/photo-1545126178-862cdb469409?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Error"width="200" height="200">
+    <br>
+    <hr>
+    <br>
+    <h1>4th Section</h1>
+    <h3>Table</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Subject</th>
+                <th>Mon</th>
+                <th>Tue</th>
+                <th>Wed</th>
+                <th>Thur</th>
+                <th>Fri</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>CHM303</td>
+                <td>8-9</td>
+                <td>N/A</td>
+                <td>N/A</td>
+                <td>9-10</td>
+                <td>8-9</td>
+            </tr>
+            <tr>
+                <td>CHM342</td>
+                <td>5-6</td>
+                <td>N/A</td>
+                <td>5-6</td>
+                <td>N/A</td>
+                <td>5-6</td>
+            </tr>
+            <tr>
+                <td>CHM321</td>
+                <td>10-11</td>
+                <td>N/A</td>
+                <td>10-11</td>
+                <td>N/A</td>
+                <td>10-11</td>
+            </tr>
+            <tr>
+                <td>ESO213</td>
+                <td>9-10</td>
+                <td>N/A</td>
+                <td>9-10</td>
+                <td>N/A</td>
+                <td>9-10</td>
+            </tr>
+            <tr>
+                <td>CHM345</td>
+                <td>N/A</td>
+                <td>N/A</td>
+                <td>2-5</td>
+                <td>2-5</td>
+                <td>N/A</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
