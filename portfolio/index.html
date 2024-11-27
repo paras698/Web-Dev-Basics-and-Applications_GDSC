@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pranshu - Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <h1>Portfolio Website</h1>
+        </div>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+      <div class="hero-content">
+        <img src="images/portfolio_photo.png" alt="Paras" class="profile-pic" />
+        <h1>Hey , I'm <span>Paras</span></h1>
+        <p>Final Year Undergraduate @ IIT Kanpur</p>
+        <a href="#contact" class="btn">RESUME</a>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I'm Paras, a dedicated software developer. My passion lies in building
+        innovative solutions that make a difference. I have honed my skills and
+        have successfully completed various projects that showcase my ability to
+        deliver high-quality work.
+      </p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <div class="project">
+          <h3>Project 1</h3>
+          <p>Brief description of the project.</p>
+          <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+          <a href="#" class="btn">View Project</a>
+        </div>
+        <div class="project">
+          <h3>Project 2</h3>
+          <p>Brief description of the project.</p>
+          <p><strong>Technologies:</strong> Python, Django, PostgreSQL</p>
+          <a href="#" class="btn">View Project</a>
+        </div>
+        <div class="project">
+          <h3>Project 3</h3>
+          <p>Brief description of the project.</p>
+          <p><strong>Technologies:</strong> React, Node.js, MongoDB</p>
+          <a href="#" class="btn">View Project</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill">
+          <i class="fas fa-code"></i>
+          <h3>Programming Languages</h3>
+          <p>Python, JavaScript, C++</p>
+        </div>
+        <div class="skill">
+          <i class="fas fa-laptop-code"></i>
+          <h3>Web Development</h3>
+          <p>HTML, CSS, React, Node.js</p>
+        </div>
+        <div class="skill">
+          <i class="fas fa-database"></i>
+          <h3>Databases</h3>
+          <p>MySQL, MongoDB</p>
+        </div>
+        <div class="skill">
+          <i class="fas fa-tools"></i>
+          <h3>Tools & Technologies</h3>
+          <p>Git, Docker, Jenkins</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit" class="btn">Send</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 Paras. All rights reserved.</p>
+      <ul class="socials">
+        <li>
+          <a href="#https://github.com/paras698"
+            ><i class="fab fa-github"></i
+          ></a>
+        </li>
+        <li>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
